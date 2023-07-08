@@ -10,8 +10,8 @@ function App() {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Splash">
-                <Stack.Screen name="Home" component={HomeScreen}/>
-                <Stack.Screen name="Splash" component={SplashScreen}/>
+                <Stack.Screen name="Home" component={HomeScreen} options={{headerShown: false}}/>
+                <Stack.Screen name="Splash" component={SplashScreen} options={{headerShown: false}}/>
             </Stack.Navigator>
         </NavigationContainer>
     );
