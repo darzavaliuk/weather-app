@@ -12,7 +12,7 @@ export default function SplashScreen() {
 
     return (
         <View style={{ flex: 1 }}>
-            <StatusBar barStyle="dark-content" />
+            <StatusBar barStyle="light-content" />
             <View style={{ flex: 1 }}>
                 <LottieView
                     source={require('../assets/weather-icon.json')}
